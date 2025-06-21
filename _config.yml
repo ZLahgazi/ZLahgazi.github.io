@@ -20,17 +20,44 @@
 
 title: Zak Lahgazi-Alaoui
 email: zakaria.lahgazi@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Zak's life, through words and pictures.
+description: "Zak's life, through words and pictures."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  ZLahgazi
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Social
+author:
+  name: "Zak Lahgazi-Alaoui"
+  avatar: "/assets/images/icon_image.jpg"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ZLahgazi"
+    - label: "Spotify"
+      icon: "fab fa-spotify"
+      url: "https://open.spotify.com/user/224tuw7la6ftbpx4rialpa6oq?si=8d75d1e24f214b1a"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/zak-lahgazi-alaoui/"
+
+# Navigation (optional)
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Photos"
+    url: /photos/
+  - title: "Updates"
+    url: /updates/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -51,11 +78,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-social_links:
-  - { platform: github,       user_url: "https://github.com/ZLahgazi" }
-  - { platform: email,        user_url: "mailto:zakaria.lahgazi@gmail.com" }
-# - { platform: twitter,      user_url: "https://twitter.com/your_handle" }
-# - { platform: instagram,    user_url: "https://instagram.com/your_profile" }
-  - { platform: spotify,      user_url: "https://open.spotify.com/user/224tuw7la6ftbpx4rialpa6oq?si=ec9a513e8a9a4fff" }
-  - { platform: linkedin,     user_url: "https://www.linkedin.com/in/zak-lahgazi-alaoui/" }
