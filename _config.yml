@@ -58,7 +58,7 @@ plugins:
 author:
   name : "Zak Lahgazi-Alaoui"
   avatar : "/assets/images/icon_image.jpg"
-  bio : "I'm a 25 guy from New Zealand living in the United Kingdom."
+  bio : "I'm a 25 year old guy from New Zealand living in the United Kingdom."
   location : London, UK
   links :
     - label: "Website"
@@ -104,6 +104,7 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
