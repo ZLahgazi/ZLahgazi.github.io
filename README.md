@@ -7,3 +7,8 @@ I have used [Jekyll](https://jekyllrb.com/) with the [Minimal Mistakes Jekyll re
 ## Adding images to posts
 
 Compress images before adding them to blog posts to save on storage using [compressor.io](https://compressor.io/).
+
+If an image is rotated incorrectly you can fix this with the following on MacOS:
+1. Open the affected image in Finder using Preview
+2. Use COMMAND + L or COMMAND + R to rotate the image as desired
+3. Close Preview and the image will now be saved in the correct orientation.
