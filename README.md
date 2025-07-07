@@ -4,6 +4,10 @@ I have used [Jekyll](https://jekyllrb.com/) with the [Minimal Mistakes Jekyll re
 
 ---
 
+## Managing the domain
+
+The domain name and settings can be updated at [dynadot.com](https://www.dynadot.com/account/domain/name/edit.html?domain_id=27934647). dynadot is the provider I chose to by the domain from.
+
 ## Adding images to posts
 
 Compress images before adding them to blog posts to save on storage using [compressor.io](https://compressor.io/).
